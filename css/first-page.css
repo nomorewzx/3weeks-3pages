@@ -1,9 +1,55 @@
 h1 {
     color: red;
 }
-
-nav ul{
-    position: relative;
+body {
+    margin: 0px;
+}
+header {
+    width:100%;
+    height:537px;
+    background-image: url("../img/header.jpg");
+    background-size: cover
 }
 
-nav ul 
+nav {
+    height: 72px;
+    background-color: #608a6073;
+}
+nav ul {
+    margin-left: 28%;
+    height: 72px;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    height: 72px;
+    border-right: solid;
+    border-right-color: white;
+    padding: 0 30 0 30;
+    color: white;
+}
+
+nav ul li span{
+    padding-top:29px;
+    display: block;
+    font-size: 14px;
+}
+
+nav ul :last-child{
+    border-right: none;
+}
+
+.header {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 173px;
+    margin-bottom: 0;
+}
+
+.sub-header {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
